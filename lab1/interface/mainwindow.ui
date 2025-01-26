@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Лабораторная работа 1</string>
+  </property>
+  <property name="locale">
+   <locale language="Russian" country="Russia"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEditX">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditY">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Введите координату x:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Введите координату y:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Введите координату z:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditZ">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="shiftButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Перенести куб</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditk">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Введите коэффициент k:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="scaleButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Изменить масштаб в 
+k раз</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rotateButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>560</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Повернуть куб</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>620</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Сохранить куб</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditOX">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>430</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>460</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Вокруг оси Oy:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>410</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Вокруг оси Ox:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditOY">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>480</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditOZ">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Вокруг оси Oz:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>Ввод углов поворота</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>относительно осей.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="text">
+     <string>(в градусах)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
